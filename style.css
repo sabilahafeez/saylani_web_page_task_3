@@ -1,0 +1,903 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif
+}
+
+
+.header{
+    background-color: #316dc3;
+    color: white;
+    padding: 2px 2px 5px 2px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.social_icons{
+    width:25%;
+    margin: 25px;
+    flex: 2;
+
+    /* padding: 5px;
+    margin: 5px; */
+}
+
+.social_icons>ul{
+    list-style-type: none;
+}
+.social_icons>ul>li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.para{
+    width: 60%;
+    flex: 4;
+    
+}
+.para>p{
+    margin-top: 25px;
+    font-size: 17px;
+}
+.header_buttons{
+    width: 40%;
+    flex: 3;
+    margin: 25px;
+}
+.header_buttons>button{
+    padding:5px;
+    width: 20%;
+    
+    border: none;
+    background-color:#f7f8fa;
+}
+.header_buttons>button>a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+ /*NAVIGATION BAR */
+
+ .logo_nav{
+     display: flex;
+     justify-content: space-between;
+     
+ }
+
+
+ .nav_img{
+     width:30%;
+     margin: 15px;
+     /* flex: 3; */
+
+ }
+ .nav{
+    width: 70%;
+    
+  
+
+} 
+.nav>ul{
+    list-style-type: none;
+    margin:20px;
+}
+.nav>ul>li{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+    
+    
+}
+.nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 1px;
+}
+.nav>ul>li:hover{
+    background-color: #316dC3;
+    color:white;
+    transition: .2s linear;
+   
+    
+    
+}
+.nav>ul>li>i>a>i{
+    margin-left: 5px;
+}
+.nav>ul>li>a:hover
+{
+   
+   color: white;
+   
+   /* display: block; */
+
+}
+.banner-img{
+    background-image: url("Images/RotiBank_Slider.jpg");
+    width:100%;
+    height: 700px;
+    background-size: cover;
+
+}
+
+
+ /* TEXT BENEATH BANNER */
+.text{
+    text-align: center;
+    font-size: 20px;
+    background-color:#316dc3 ;
+    color: white;
+    text-align: center;
+    padding: 1px auto;
+    margin: 0 auto;
+    width: 70%;
+}
+/* INTRODUCTION SECTION */
+.intro>h1{
+    color: green;
+    font-family: 'Merriweather', serif;
+}
+.intro .color{
+    color: #2755e9;
+}
+ 
+.para{
+    width: 100%;
+    margin: 0 auto; 
+}
+.p{
+    font-size: 14px;
+    font-family:sans-serif;
+    color: #666666;
+    padding: 26px 81px auto 81px;
+    text-align: justify;
+    line-height: 23px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro{
+    margin: 0 auto; 
+    padding: 283px;
+    padding-bottom: 84px;
+    padding-top: 84px;
+    
+}
+
+.outer_div{
+    background-color:#2755e9 ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+.outer_div .divs{
+    width: 25%;
+}
+.green{
+    color:rgb(0, 255, 0);
+}
+.numbers{
+    font-size: 3em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.six_div_class{
+    background-color: #f7f8fa;
+    margin-top: 80px;   
+}
+.six_div_class h1{
+    color: green;
+    font-family: 'Merriweather', serif;
+}
+.six_div_class .color{
+    color: #2755e9 ;
+}
+/* .main_div p{
+    font-family: 'Merriweather', serif;
+} */
+.abcd{
+    display: flex;
+    /* margin: auto; */
+    
+}
+.out_div{
+    margin: 100px 100px auto 152px;;
+}
+#color{
+    color: #2755e9 ;
+}
+.gallerycolor{
+    color: green;
+}
+/* .images{
+    display: flex;
+    text-align: center;
+     */
+/* .img_glry{
+    width: 100%;
+    height: auto;
+    margin-top:10%;
+    border: 1px solid black;
+    margin: auto;
+} */
+.images{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    
+}
+.images>img{
+    width: 15%;
+    
+}
+.setting_divs{
+    width : 80%; 
+    margin: 0 auto;
+    display: flex;
+   
+    justify-content: space-around;
+   
+    height: auto;
+}
+.setting_divs>.main_div{
+    width: 100%;
+    color: blue;
+    margin: 10px;
+    background-color:#ffff ;
+    box-shadow: 5px 5px 10px gray;
+    border: 0.2px solid rgba(0, 0, 0, 0.247);
+}
+
+    .setting_divs>.main_div>div
+    {
+        margin: 10px;
+        padding: 10px;
+
+    }
+    .setting_divs>.main_div>div>img
+    {
+        width: 30%;
+    }
+
+
+
+
+
+
+/* next event and prjects css */
+
+.inner-divs{
+    display: flex;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    margin-top:8%;
+    
+}
+
+
+.left{
+    margin: 0 auto;
+    color: #2755e9;
+    font-weight: bold;
+    width: 30%;
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.font-color{
+    width: 100%;
+}
+.font-color>marquee{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.inner-divss{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.two-divs{
+    width: 100%;
+    background-color: #f7f8fa;
+    margin-bottom: 17px;
+}
+.align{
+    text-align: left;
+}
+#thar{
+     margin-left: 10px; 
+   
+}
+.footer{
+    display: flex;
+    /* margin-top: 100px; */
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.footer>.contact{
+    /* border:1px solid black; */
+    width:30%;
+    margin: 30px;
+}
+.footer>.contact>ul{
+    list-style-type: none;
+}
+.footer>.contact>ul>li{
+    line-height: 30px;
+    text-align: left;
+    
+}
+.footer>.usefull{
+    width:30%;
+    margin:30px ;
+}
+.footer>.usefull>hr{
+    margin-right: 10%;
+    width:100%;
+}
+.footer>.links{
+
+    width:30%;
+    margin: 30px;
+    
+}
+.footer>.links>ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+.footer>.links>ul>li{
+   display: inline-block;
+   margin-left: 5px;
+   background-color: #316dC3;
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   border-radius: 100%;
+   text-align: center;
+}
+.footer>.links>ul>li:first-child{
+    margin-left: 0;
+}
+.footer>.links>ul>li>i
+{
+    text-align: center;
+    margin-left: 1px;
+}
+
+
+
+/* responsvie */
+@media only screen and (max-width:1440px)
+{
+    
+#header_buttons {
+    margin: 15px auto;
+    width: 48%;
+}
+.intro {
+    margin: 0 auto;
+   padding:0;
+    
+}
+
+}
+@media only screen and (max-width:1024px)
+{
+    .nav>ul>li>a {
+        text-decoration: none;
+        color: black;
+        padding:0;
+        margin:0;
+    }
+    footer>.links {
+        
+        width: 30%;
+        margin: 30px;
+    }
+
+    .footer>.links>ul>li>i {
+       font-size: 15px;
+       /* margin: 2px; */
+       margin-left: -3px;
+    }
+
+    .left{
+        width: 100%;
+    }
+    .align{
+        text-align: center
+body{
+    text-align: center;
+}
+
+
+.header{
+    background-color: #316dc3;
+    color: white;
+    padding: 2px 2px 5px 2px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+#header_buttons button a{
+    text-decoration: none;
+    width: 25%;
+    padding: 30px 10px;
+    margin: 5px;
+}
+#header_buttons{
+    margin: 15px auto;
+    width: 30%;
+}
+.buttons{
+    margin: 3px;
+    border: none;
+    background-color: white;
+   font-size: 15px;
+    margin: 0 5px 5px 5px;
+}
+.para{
+    width: 40%;
+}
+.social_icons{
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+}
+.social_icons i{
+    margin: 2px;
+}
+ /*NAVIGATION BAR */
+
+ .logo_nav{
+     display: flex;
+     justify-content: space-between;
+     
+ }
+
+
+ .nav_img{
+     width:30%;
+     margin: 15px;
+     /* flex: 3; */
+
+ }
+ .nav{
+    width: 70%;
+    
+  
+
+} 
+.nav>ul{
+    list-style-type: none;
+}
+.nav>ul>li{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+    
+    
+}
+.nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 1px;
+}
+.nav>ul>li:hover{
+    background-color: #316dC3;
+    color:white;
+    transition: .2s linear;
+
+    
+    
+}
+#Home:active{
+
+    background-color: blue;
+}
+.nav>ul>li>a:hover
+{
+   
+   color: white;
+   
+   /* display: block; */
+
+}
+
+.banner-img{
+    background-image: url("Images/RotiBank_Slider.jpg");
+    width:100%;
+    height: 700px;
+    background-size: cover;
+
+}
+
+
+ /* TEXT BENEATH BANNER */
+.text{
+    text-align: center;
+    font-size: 20px;
+    background-color:#316dc3 ;
+    color: white;
+    text-align: center;
+    padding: 1px auto;
+    margin: 0 auto;
+    width: 70%;
+}
+/* INTRODUCTION SECTION */
+.intro>h1{
+    color: green;
+    font-family: 'Merriweather', serif;
+}
+.intro .color{
+    color: #2755e9;
+}
+ 
+.para{
+    width: 100%;
+    margin: 0 auto; 
+}
+.p{
+    font-size: 14px;
+    font-family:sans-serif;
+    color: #666666;
+    padding: 26px 81px auto 81px;
+    text-align: justify;
+    line-height: 23px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro{
+    margin: 0 auto; 
+    padding: 283px;
+    padding-bottom: 84px;
+    padding-top: 84px;
+    
+}
+
+.outer_div{
+    background-color:#2755e9 ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+.outer_div .divs{
+    width: 25%;
+}
+.green{
+    color:rgb(0, 255, 0);
+}
+.numbers{
+    font-size: 3em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.six_div_class{
+    background-color: #f7f8fa;
+    margin-top: 80px;   
+}
+.six_div_class h1{
+    color: green;
+    font-family: 'Merriweather', serif;
+}
+.six_div_class .color{
+    color: #2755e9 ;
+}
+/* .main_div p{
+    font-family: 'Merriweather', serif;
+} */
+.abcd{
+    display: flex;
+    /* margin: auto; */
+    
+}
+.out_div{
+    margin: 100px 100px auto 152px;;
+}
+#color{
+    color: #2755e9 ;
+}
+.gallerycolor{
+    color: green;
+}
+/* .images{
+    display: flex;
+    text-align: center;
+     */
+/* .img_glry{
+    width: 100%;
+    height: auto;
+    margin-top:10%;
+    border: 1px solid black;
+    margin: auto;
+} */
+.images{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    
+}
+.images>img{
+    width: 15%;
+    
+}
+.setting_divs{
+    width : 80%; 
+    margin: 0 auto;
+    display: flex;
+   
+    justify-content: space-around;
+   
+    height: auto;
+}
+.setting_divs>.main_div{
+    width: 100%;
+    color: blue;
+    margin: 10px;
+    background-color:#ffff ;
+    box-shadow: 5px 5px 10px gray;
+    border: 0.2px solid rgba(0, 0, 0, 0.247);
+}
+
+    .setting_divs>.main_div>div
+    {
+        margin: 10px;
+        padding: 10px;
+
+    }
+    .setting_divs>.main_div>div>img
+    {
+        width: 30%;
+    }
+
+
+
+
+
+
+/* next event and prjects css */
+
+.inner-divs{
+    display: flex;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    margin-top:8%;
+    
+}
+
+
+.left{
+    margin: 0 auto;
+    color: #2755e9;
+    font-weight: bold;
+    width: 30%;
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.font-color{
+    width: 100%;
+}
+.font-color>marquee{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.inner-divss{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.two-divs{
+    width: 100%;
+    background-color: #f7f8fa;
+    margin-bottom: 17px;
+}
+.align{
+    text-align: left;
+}
+#thar{
+     margin-left: 10px; 
+   
+}
+.footer{
+    display: flex;
+    /* margin-top: 100px; */
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.footer>.contact{
+    /* border:1px solid black; */
+    width:30%;
+    margin: 30px;
+}
+.footer>.contact>ul{
+    list-style-type: none;
+}
+.footer>.contact>ul>li{
+    line-height: 30px;
+    text-align: left;
+    
+}
+.footer>.usefull{
+    width:30%;
+    margin:30px ;
+}
+.footer>.usefull>hr{
+    margin-right: 10%;
+    width:100%;
+}
+.footer>.links{
+
+    width:30%;
+    margin: 30px;
+    
+}
+.footer>.links>ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+.footer>.links>ul>li{
+   display: inline-block;
+   margin-left: 5px;
+   background-color: #316dC3;
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   border-radius: 100%;
+   text-align: center;
+}
+.footer>.links>ul>li:first-child{
+    margin-left: 0;
+}
+.footer>.links>ul>li>i
+{
+    text-align: center;
+    margin-left: 1px;
+}
+
+
+
+/* responsvie */
+@media only screen and (max-width:1440px)
+{
+    
+#header_buttons {
+    margin: 15px auto;
+    width: 48%;
+}
+.intro {
+    margin: 0 auto;
+   padding:0;
+    
+}
+
+}
+@media only screen and (max-width:1024px)
+{
+    .nav>ul>li>a {
+        text-decoration: none;
+        color: black;
+        padding:0;
+        margin:0;
+    }
+    footer>.links {
+        
+        width: 30%;
+        margin: 30px;
+    }
+
+    .footer>.links>ul>li>i {
+       font-size: 15px;
+       /* margin: 2px; */
+       margin-left: -3px;
+    }
+}
+@media only screen and (max-width:768px)
+
+
+{
+    .header{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .logo_nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav{
+        width: 100%;
+    }
+    .outer_div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .setting_divs
+    {
+        flex-wrap:wrap ;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .setting_divs>.main_div{
+        width: 50%;
+    }
+    .inner-divs{
+        flex-wrap: wrap;
+    }
+    
+};
+    }
+}
+@media only screen and (max-width:768px)
+
+
+{
+    .header{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .logo_nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav{
+        width: 100%;
+    }
+    .outer_div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .setting_divs
+    {
+        flex-wrap:wrap ;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .setting_divs>.main_div{
+        width: 50%;
+    }
+    .inner-divs{
+        flex-wrap: wrap;
+    }
+    
+}
